@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--https://s3-us-west-2.amazonaws.com/cis3110-a4/-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/cis3110-a4/bootstrap.css"> <!--modified bootstrap.css file-->
+<title>Ace | Home</title>
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/cis3110-a4/acePhase4CS.css">
+<link href="https://s3-us-west-2.amazonaws.com/cis3110-a4/a_titleicon.png" rel="icon" type="image/gif">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<!--Brandon's Bootstrap sources-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+<!--Jay's Bootstrap sources-->
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/bucket3110fall18/Phase5/p5_bootstrap.css">
+<!--Bootsrap CDN Top section-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body class="content" onload="checkCookie()">
+
+<!--Bootstrap comp: Navbar: starts-->  <!--TODOOOOOOOOOOOOOOOOOOOOOOOOO: ABOUT-->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+    <a href="https://s3-us-west-2.amazonaws.com/cis3110-a4/acePhase4CS_HTML.html"><img src="https://s3-us-west-2.amazonaws.com/bucket3110fall18/Phase7/Logo_smallest.PNG" alt="Home"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul id="navbar-nav" class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="https://s3-us-west-2.amazonaws.com/cis3110-a4/acePhase4CS_HTML.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://s3-us-west-2.amazonaws.com/cis3110-a4/acePhase4CS_About.html">About</a>
+        </li>
+        <!--<li class="nav-item">
+          <a class="nav-link" href="https://s3-us-west-2.amazonaws.com/cis3110-a4/acePhase4CS_Features.html">Features</a>
+              </li>
+              -->
+              <li class="nav-item">
+              <!--Jay's Additional Navigation Bar Functions-->
+          <a class="nav-link" href="#">PC Games</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Mobile Games</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Board Games</a>
+              </li>
+      </ul>
+    </div>
+  </nav>
+<!--Navbar: ends-->
+
+<!--Bootstrap comp: Carousel: starts-->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+	<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+	<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block img-fluid" src="https://s3-us-west-2.amazonaws.com/bucket3110fall18/Phase7/images/sw1.jpg" alt="Summoners War">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="https://s3-us-west-2.amazonaws.com/bucket3110fall18/Phase7/images/pogo1.jpg" alt="Pokemon Go">
+    </div>
+	<div class="carousel-item">
+      <img class="d-block img-fluid" src="https://s3-us-west-2.amazonaws.com/bucket3110fall18/Phase7/images/hearth1.jpg" alt="Hearthstone">
+	  <div class="carousel-caption d-none d-md-block">
+	  </div>
+    </div>
+	<div class="carousel-item">
+      <img class="d-block img-fluid" src="https://s3-us-west-2.amazonaws.com/bucket3110fall18/Phase7/images/polets1.jpg" alt="Pokemon Let's Go">
+	  <div class="carousel-caption d-none d-md-block">
+	  </div>
+    </div>
+	<div class="carousel-item">
+      <img class="d-block img-fluid" src="https://s3-us-west-2.amazonaws.com/bucket3110fall18/Phase7/images/breath2.jpg" alt="The Legend of Zelda: Breath of the Wild">
+    </div>
+	<div class="carousel-item">
+      <img class="d-block img-fluid" src="https://s3-us-west-2.amazonaws.com/bucket3110fall18/Phase7/images/mario1.jpg" alt="Mario Odyssey">
+	  <div class="carousel-caption d-none d-md-block">
+		<!-- <h3 class="carousel">Minecraft</h3> Description Middle of Carousel-->
+	  </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!--Carousel: ends-->
+<hr> <!--Line break divider-->
+
+<!--Main script section-->
+<script>
+var images = ["sw4.jpg", "pogo2.jpg", "hearth4.jpg", "polets1.jpg", "breath2.jpg", "mario3.jpg"];
+var names = ["Summoners War","Pokemon Go","Hearthstone","Pokemon Let's Go","The Legend of Zelda: Breath of the Wild","Mario Odyssey"];
+var desc = ["Minecraft is a 2011 sandbox video game created by Swedish game developer Markus Persson and later developed by Mojang. The game allows players to build with a variety of different blocks in a 3D procedurally generated world, requiring creativity from players.",
+			"Fallout 4 is a post-apocalyptic action role-playing video game developed by Bethesda Game Studios and published by Bethesda Softworks. It is the fifth major installment in the Fallout series and was released worldwide on November 10, 2015, for Microsoft Windows, PlayStation 4 and Xbox One.",
+			"Destiny 2 is an online-only multiplayer first-person shooter video game developed by Bungie and published by Activision. It was released for PlayStation 4 and Xbox One on September 6, 2017, followed by a Microsoft Windows version the following month. It is the sequel to 2014's Destiny and its subsequent expansions.",
+			"Enter a strange and unexplored world full of strange creatures, dangers, and surprises. Gather resources to craft items and structures that match your survival style. Play your way as you unravel the mysteries of this strange land.",
+			"League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements. Two teams of powerful champions, each with a unique design and playstyle, battle head-to-head across multiple battlefields and game modes.",
+			"Fornite is an online video game first released in 2017 and developed by Epic Games. It is available as separate software packages having different game modes that otherwise share the same general gameplay and game engine."];
+var pValues = ["Summon your team and head off into an adventure. ",
+			   "Explore the outdoor and catch 'em all!",
+			   "Interest ya'n a pint?",
+			   "New way to explore and catch 'em all!",
+			   "Courage need not be remembered. For itis never forgotten.",
+			   "Explore it all with your hat!"];
+var imageIDs = ["a1","a2","a3","a4","a5","a6"];
+var imageURLs = ["https://s3.us-west-2.amazonaws.com/cis3110-a2/acePhase2CS_detailPage.html?img=https://s3-us-west-2.amazonaws.com/cis3110-a2/summonerswar.jpg&names=Minecraft&desc=Minecraft%20is%20a%202011%20sandbox%20video%20game%20created%20by%20Swedish%20game%20developer%20Markus%20Persson%20and%20later%20developed%20by%20Mojang.%20The%20game%20allows%20players%20to%20build%20with%20a%20variety%20of%20different%20blocks%20in%20a%203D%20procedurally%20generated%20world,%20requiring%20creativity%20from%20players.",
+				 "https://s3.us-west-2.amazonaws.com/cis3110-a2/acePhase2CS_detailPage.html?img=https://s3-us-west-2.amazonaws.com/cis3110-a2/pogo.jpg&names=Fallout%204&desc=Fallout%204%20is%20a%20post-apocalyptic%20action%20role-playing%20video%20game%20developed%20by%20Bethesda%20Game%20Studios%20and%20published%20by%20Bethesda%20Softworks.%20It%20is%20the%20fifth%20major%20installment%20in%20the%20Fallout%20series%20and%20was%20released%20worldwide%20on%20November%2010,%202015,%20for%20Microsoft%20Windows,%20PlayStation%204%20and%20Xbox%20One.",
+				 "https://s3.us-west-2.amazonaws.com/cis3110-a2/acePhase2CS_detailPage.html?img=https://s3-us-west-2.amazonaws.com/cis3110-a2/hearth.jpg&names=Destiny%202&desc=Destiny%202%20is%20an%20online-only%20multiplayer%20first-person%20shooter%20video%20game%20developed%20by%20Bungie%20and%20published%20by%20Activision.%20It%20was%20released%20for%20PlayStation%204%20and%20Xbox%20One%20on%20September%206,%202017,%20followed%20by%20a%20Microsoft%20Windows%20version%20the%20following%20month.%20It%20is%20the%20sequel%20to%202014%27s%20Destiny%20and%20its%20subsequent%20expansions.",
+				 "https://s3.us-west-2.amazonaws.com/cis3110-a2/acePhase2CS_detailPage.html?img=https://s3-us-west-2.amazonaws.com/cis3110-a2/polets.jpg&names=Don%27t%20Starve&desc=Enter%20a%20strange%20and%20unexplored%20world%20full%20of%20strange%20creatures,%20dangers,%20and%20surprises.%20Gather%20resources%20to%20craft%20items%20and%20structures%20that%20match%20your%20survival%20style.%20Play%20your%20way%20as%20you%20unravel%20the%20mysteries%20of%20this%20strange%20land.",
+				 "https://s3.us-west-2.amazonaws.com/cis3110-a2/acePhase2CS_detailPage.html?img=https://s3-us-west-2.amazonaws.com/cis3110-a2/breath.jpg&names=League%20of%20Legends&desc=League%20of%20Legends%20is%20a%20fast-paced,%20competitive%20online%20game%20that%20blends%20the%20speed%20and%20intensity%20of%20an%20RTS%20with%20RPG%20elements.%20Two%20teams%20of%20powerful%20champions,%20each%20with%20a%20unique%20design%20and%20playstyle,%20battle%20head-to-head%20across%20multiple%20battlefields%20and%20game%20modes.",
+				 "https://s3.us-west-2.amazonaws.com/cis3110-a2/acePhase2CS_detailPage.html?img=https://s3-us-west-2.amazonaws.com/cis3110-a2/fornite.jpg&names=Fornite&desc=Fornite%20is%20an%20online%20video%20game%20first%20released%20in%202017%20and%20developed%20by%20Epic%20Games.%20It%20is%20available%20as%20separate%20software%20packages%20having%20different%20game%20modes%20that%20otherwise%20share%20the%20same%20general%20gameplay%20and%20game%20engine.",];
+var boxDivs = ["box_summonerswar","box_pogo","box_hearth","box_polets","box_breath","box_mario"];				
+var firstBtnNums = ["btn1","btn3","btn5","btn7","btn9","btn11"];
+var secondBtnNums = ["btn2","btn4","btn6","btn8","btn10","btn12"];
+var jHeaders = ["Build your team and fight against other Players",
+				"Live your childhood dreams",
+				"Assemble your deck and challenge other players!",
+				"A crossover between traditional and new",
+				"An all new open-world Legend of Zelda game. The possibility is endless.",
+				"The Mario experience but in 3D!"];
+var jAnchorIDs = ["summonerswar_btn","pogo_btn","hearth_btn","polets_btn","breath_btn","mario_btn"];
+var jAnchorValues = ["Visit Summoners War Offical Site","Visit Niantic Offical Site","Visit Hearthstone Offical Site","Visit Pokemon Company Offical Site","Visit Nintendo Offical Site","Visit Nintendo Offical Site"];
+var vidSRCs = ["https://www.youtube.com/embed/6xYCsZW07o4",
+			   "https://www.youtube.com/embed/xUQYregW0d8",
+			   "https://www.youtube.com/embed/2sj2iQyBTQs",
+			   "https://www.youtube.com/embed/yQCREgz4tQY",
+			   "https://www.youtube.com/embed/vPguoeYTvMI",
+			   "https://www.youtube.com/embed/YG35phnCKRc",
+			   "https://www.youtube.com/embed/9jRtpMKLsts",
+			   "https://www.youtube.com/embed/7Wtfkl-g-VE",
+			   "https://www.youtube.com/embed/zw47_q9wbBE",
+			   "https://www.youtube.com/embed/XZmxvig1dXE",
+			   "https://www.youtube.com/embed/wGQHQc_3ycE",
+			   "https://www.youtube.com/embed/Zc2aYp_l4tY"];
+var url;
+var containMe = document.createElement("div");
+	containMe.setAttribute("class","containMe");
+	
+//<!--for loop: Starts-->	
+for(var i=0; i < images.length; i++)
+ {
+ //<!--Appends image to Div-->
+  url = "https://s3-us-west-2.amazonaws.com/bucket3110fall18/Phase7/images/" + images[i];
+  var boxDiv = boxDivs[i];
+  var box = document.createElement("div");
+  box.setAttribute("class", boxDiv);
+  var imageID = imageIDs[i];
+  var imageURL = imageURLs[i];
+  var anchor = document.createElement("a");
+  anchor.setAttribute("id", imageID);
+  anchor.setAttribute("href", imageURL);
+  var img = document.createElement("img");
+  img.setAttribute("class","pctImg");
+  img.setAttribute("title", name);
+  img.setAttribute("src", url);
+  anchor.appendChild(img);
+ //!--Appends the title(h3) and short description-->
+  var name = names[i];
+  var divInBox = document.createElement("div");
+  divInBox.setAttribute("class", name);
+  var h3 = document.createElement("h3");
+  var h3Value = document.createTextNode(name);
+  h3.appendChild(h3Value);
+  divInBox.appendChild(h3);
+  var pInDiv = document.createElement("p");
+  pInDiv.setAttribute("class", name);
+  var pValue = pValues[i];
+  var pInDivValue = document.createTextNode(pValue);
+  pInDiv.appendChild(pInDivValue);
+  divInBox.appendChild(pInDiv);
+  var br = document.createElement("br");
+  divInBox.appendChild(br);
+  
+ //<!--Appends buttons (fav and unfav)-->
+  var firstBtnNum = firstBtnNums[i];
+  var favBtn = document.createElement("button");
+  favBtn.setAttribute("type","button");
+  favBtn.setAttribute("class","btn btn-secondary");
+	favBtn.setAttribute("id", firstBtnNum);
+	favBtn.setAttribute("data-toggle","tooltip");
+	favBtn.setAttribute("data-placement","top");
+	favBtn.setAttribute("title","Hi");
+  var favBtnValue = document.createTextNode("Make favorite");
+  favBtn.appendChild(favBtnValue);
+  var secondBtnNum = secondBtnNums[i];
+  var unfavBtn = document.createElement("button");
+  unfavBtn.setAttribute("type","button");
+  unfavBtn.setAttribute("class","btn btn-secondary");
+	unfavBtn.setAttribute("id", secondBtnNum);
+	unfavBtn.setAttribute("data-toggle","popover");
+	unfavBtn.setAttribute("data-container","body");
+	unfavBtn.setAttribute("data-placement","top");
+	unfavBtn.setAttribute("title","Hello");
+  var unfavBtnValue = document.createTextNode("Unfavorite");
+  unfavBtn.appendChild(unfavBtnValue);
+  divInBox.appendChild(favBtn);
+  divInBox.appendChild(unfavBtn);
+  
+ //<!--Image and textbox alternating-->
+  if (i==0 || i==2 || i==4) {
+	box.appendChild(anchor);
+	box.appendChild(divInBox);
+  } else if (i==1 || i==3 || i==5) {
+	box.appendChild(divInBox);
+	box.appendChild(anchor);
+  } else {
+	box.appendChild(anchor);
+	box.appendChild(anchor);
+  }
+  containMe.appendChild(box);
+ 
+	 
+//  <!--Jumbotron starts-->
+  // jDiv represent the Jumbotron Div/Box
+  var jDiv = document.createElement("div");
+  jDiv.setAttribute("class","jumbotron jumbotron-fluid");
+  // jDivContainer is another Div within the jDiv Box that will contain the h1 element for each game
+  var jDivContainer = document.createElement("div");
+  jDivContainer.setAttribute("class","container");
+  var h1 = document.createElement("h1");
+  h1.setAttribute("class","display-4");
+  // jHeader will return the value of each h1 element from the jHeaders array
+  // we will append the h1Value to h1, and append h1 to jDivContainer
+  var jHeader = jHeaders[i];
+  var h1Value = document.createTextNode(jHeader);
+  h1.appendChild(h1Value);
+  jDivContainer.appendChild(h1);
+  jDiv.appendChild(jDivContainer);
+//  <!--Jumbotron Header ends-->
+ 
+	 
+//   <!--Jumbotron Body starts-->
+  // jP represents jumbotron Paragraph. This section will be the description of each game
+  var jP = document.createElement("p");
+  jP.setAttribute("class","lead");
+  // the if statement determines which box the interation is on and passes the respective elements and values
+  if (i==0) {
+	var jBody = document.createTextNode("Players assume the role of a summoner, opening scrolls in order to acquire monsters to fight in turn-based battle. "+
+						"Although the main storyline is single-player, Summoners War offers many cooperative and competitive multiplayer modes. They also added the new Tarturus Labryinth in the 2018 update. "+
+						"Jump into the Sky Arena, a world under battle over the vital resource: Mana Crystals! "+
+						"Summon over 1000 different types of monsters to compete for victory in the Sky Arena! "
+						); 
+	
+	var jBr1 = document.createElement("br"); 
+	var jBr2 = document.createElement("br");
+	
+  }else if (i==1) {
+	var jBody = document.createTextNode("Search far and wide for Pokémon and items "+
+				"Certain Pokémon appear near their native environment—look for Water-type Pokémon by lakes  "+
+				"and oceans. Visit PokéStops and Gyms—found at interesting places like museums, art  "+
+				"exploration, survival game from start to finish. But wait! There are numerous recruitable NPCs for hired. Your "+
+				"installations, historical markers, and monuments—to stock up on Poké Balls and helpful items. "+
+				"Catching, hatching, evolving, and more! " +
+				"As you level up, you’ll be able to catch more-powerful Pokémon to complete your Pokédex. You can add to your collection by hatching Pokémon Eggs based on the distances you walk. " + 
+				"Help your Pokémon evolve by catching many of the same kind. Choose a Buddy Pokémon to walk with and earn Candy that will help you make your Pokémon stronger.");
+	var jBr1 = document.createElement("br"); 
+	var jBr2 = document.createElement("br");
+  }else if (i==2) {
+	var jBody = document.createTextNode("AN EVER EXPANDING UNIVERSE. Build your deck to harness the power of amazing minions and spells - " + 
+				"brave the mysterious forests of The Witchwood and hunt the evils that lurk in the shadows, or become a powerful Death Knight from the Knights of the Frozen Throne. " + 
+				"Discover dinosaurs and elementals from Journey to Un’Goro. " +
+				"Explore dark caverns and unearth hidden powerful weapons and treasures from Kobolds and Catacombs."
+										);
+	var jBr1 = document.createElement("br"); 
+	var jBr2 = document.createElement("br");
+  }else if (i==3) {
+	var jBody = document.createTextNode("Catch Pokémon Like Never Before. The Poké Ball Plus is a Poké Ball-shaped device that can  "+
+										"be used to play Pokémon: Let's Go, Pikachu! and Pokémon: Let's Go, Eevee! in place of your  "+
+										"Joy-Con. You'll be able to throw Poké Balls in-game with a flick of your wrist! In addition to "+
+										"motion controls, the device lights up with a variety of colors, vibrates, and plays sounds. With  "+
+										"the Poké Ball Plus, you can also take one of your favorite Pokémon from these games for a  "+
+										"stroll as you go about your daily life in the real world. The Poké Ball Plus even works as a Pokémon GO Plus when playing Pokémon GO.");
+	
+	var jBr1 = document.createElement("br"); 
+	var jBr2 = document.createElement("br");
+  }else if (i==4) {
+	var jBody = document.createTextNode("Travel across fields, through forests and to mountain peaks as you discover what has become "+
+									    "of the ruined kingdom of Hyrule in this open-air adventure. Explore the wilds of Hyrule any way "+
+										"you like - Climb up towers and mountain peaks in search of new destinations, then set your own "+
+										"path to get there and plunge into the wilderness. Along the way, you'll battle towering enemies, "+
+										"hunt wild beasts and gather ingredients for the food and elixirs you'll need to sustain you on your journey."
+										);
+	
+	var jBr1 = document.createElement("br"); 
+	var jBr2 = document.createElement("br");
+  }else {
+	var jBody = document.createTextNode("New Evolution of Mario Sandbox-Style Gameplay. Mario embarks on a new journey through "+
+										"unknown worlds, running and jumping through huge 3D worlds in the first sandbox-style Mario "+
+										"game since Super Mario 64 and Super Mario Sunshine. Set sail between expansive worlds "+
+										"aboard an airship, and perform all-new actions, such as throwing Mario's cap. "
+										);
+	
+	var jBr1 = document.createElement("br"); 
+	var jBr2 = document.createElement("br");
+  }
+  // lineBreak element hr is ... literally a linebreak
+  var lineBreak = document.createElement("hr");
+  lineBreak.setAttribute("class","my-4");
+  // jAnchorID extract values from jAnchorIDs array and passes the values (as in ID numbers) to each anchor through out the iteration 
+  var jAnchorID = jAnchorIDs[i];
+  var jAnchor = document.createElement("a");
+  jAnchor.setAttribute("class","btn btn-primary btn-lg");
+  jAnchor.setAttribute("id", jAnchorID);
+  jAnchor.setAttribute("role","button");
+  // jAnchorValue extract values from jAnchorValues array and passes the values (as in String values/addresses) to each anchor through out the iteration 
+  var jAnchorValue = jAnchorValues[i];
+  var jAnchorText = document.createTextNode(jAnchorValue);
+  jAnchor.appendChild(jAnchorText);
+  // jHeader2 will print "Check out some gameplay" through each iteration
+  var jHeader2 = document.createTextNode("Check out some gameplay");
+  var h2 = document.createElement("h2");
+  h2.appendChild(jHeader2);
+ 
+ 
+//   <!--ContainMe2 starts-->
+  // this is the beginning of the second section in the jumbotron section
+  // it will contain the two videos that will be implemented with iFrame tag
+  var containMe2 = document.createElement("div");
+  containMe2.setAttribute("class","containMe2");
+  
+  // the if statement that will assign the same attributes through each iteration
+  // the scr attribute will be extracted from the vidSRCs array 0,1,2,3 etc 
+  // based on the indexing of the array, certain src will be passed
+  if (i==0) {
+	  var iFrame = document.createElement("iframe");
+	  iFrame.setAttribute("class","iFrame");
+	  iFrame.setAttribute("width","60%");
+	  iFrame.setAttribute("height","345");
+	  iFrame.setAttribute("allowfullscreen","true");
+	  iFrame.setAttribute("webkitallowfullscreen","true");
+	  iFrame.setAttribute("mozallowfullscreen","true");
+	  iFrame.setAttribute("src", vidSRCs[0]);
+	  
+	  var iFrame2 = document.createElement("iframe");
+	  iFrame2.setAttribute("class","iFrame2");
+	  iFrame2.setAttribute("width","60%");
+	  iFrame2.setAttribute("height","345");
+	  iFrame2.setAttribute("allowfullscreen","true");
+	  iFrame2.setAttribute("webkitallowfullscreen","true");
+	  iFrame2.setAttribute("mozallowfullscreen","true");
+	  iFrame2.setAttribute("src", vidSRCs[1]);
+  }else if (i==1) {
+	  var iFrame = document.createElement("iframe");
+	  iFrame.setAttribute("class","iFrame");
+	  iFrame.setAttribute("width","60%");
+	  iFrame.setAttribute("height","345");
+	  iFrame.setAttribute("allowfullscreen","true");
+	  iFrame.setAttribute("webkitallowfullscreen","true");
+	  iFrame.setAttribute("mozallowfullscreen","true");
+	  iFrame.setAttribute("src", vidSRCs[2]);
+	  
+	  var iFrame2 = document.createElement("iframe");
+	  iFrame2.setAttribute("class","iFrame2");
+	  iFrame2.setAttribute("width","60%");
+	  iFrame2.setAttribute("height","345");
+	  iFrame2.setAttribute("allowfullscreen","true");
+	  iFrame2.setAttribute("webkitallowfullscreen","true");
+	  iFrame2.setAttribute("mozallowfullscreen","true");
+	  iFrame2.setAttribute("src", vidSRCs[3]);
+  }else if (i==2) {
+	  var iFrame = document.createElement("iframe");
+	  iFrame.setAttribute("class","iFrame");
+	  iFrame.setAttribute("width","60%");
+	  iFrame.setAttribute("height","345");
+	  iFrame.setAttribute("allowfullscreen","true");
+	  iFrame.setAttribute("webkitallowfullscreen","true");
+	  iFrame.setAttribute("mozallowfullscreen","true");
+	  iFrame.setAttribute("src", vidSRCs[4]);
+	  
+	  var iFrame2 = document.createElement("iframe");
+	  iFrame2.setAttribute("class","iFrame2");
+	  iFrame2.setAttribute("width","60%");
+	  iFrame2.setAttribute("height","345");
+	  iFrame2.setAttribute("allowfullscreen","true");
+	  iFrame2.setAttribute("webkitallowfullscreen","true");
+	  iFrame2.setAttribute("mozallowfullscreen","true");
+	  iFrame2.setAttribute("src", vidSRCs[5]);
+  }else if (i==3) {
+	  var iFrame = document.createElement("iframe");
+	  iFrame.setAttribute("class","iFrame");
+	  iFrame.setAttribute("width","60%");
+	  iFrame.setAttribute("height","345");
+	  iFrame.setAttribute("allowfullscreen","true");
+	  iFrame.setAttribute("webkitallowfullscreen","true");
+	  iFrame.setAttribute("mozallowfullscreen","true");
+	  iFrame.setAttribute("src", vidSRCs[6]);
+	  
+	  var iFrame2 = document.createElement("iframe");
+	  iFrame2.setAttribute("class","iFrame2");
+	  iFrame2.setAttribute("width","60%");
+	  iFrame2.setAttribute("height","345");
+	  iFrame2.setAttribute("allowfullscreen","true");
+	  iFrame2.setAttribute("webkitallowfullscreen","true");
+	  iFrame2.setAttribute("mozallowfullscreen","true");
+	  iFrame2.setAttribute("src", vidSRCs[7]);
+  }else if (i==4) {
+	  var iFrame = document.createElement("iframe");
+	  iFrame.setAttribute("class","iFrame");
+	  iFrame.setAttribute("width","60%");
+	  iFrame.setAttribute("height","345");
+	  iFrame.setAttribute("allowfullscreen","true");
+	  iFrame.setAttribute("webkitallowfullscreen","true");
+	  iFrame.setAttribute("mozallowfullscreen","true");
+	  iFrame.setAttribute("src", vidSRCs[8]);
+	  
+	  var iFrame2 = document.createElement("iframe");
+	  iFrame2.setAttribute("class","iFrame2");
+	  iFrame2.setAttribute("width","60%");
+	  iFrame2.setAttribute("height","345");
+	  iFrame2.setAttribute("allowfullscreen","true");
+	  iFrame2.setAttribute("webkitallowfullscreen","true");
+	  iFrame2.setAttribute("mozallowfullscreen","true");
+	  iFrame2.setAttribute("src", vidSRCs[9]);
+  }else if (i==5) {
+	  var iFrame = document.createElement("iframe");
+	  iFrame.setAttribute("class","iFrame");
+	  iFrame.setAttribute("width","60%");
+	  iFrame.setAttribute("height","345");
+	  iFrame.setAttribute("allowfullscreen","true");
+	  iFrame.setAttribute("webkitallowfullscreen","true");
+	  iFrame.setAttribute("mozallowfullscreen","true");
+	  iFrame.setAttribute("src", vidSRCs[10]);
+	  
+	  var iFrame2 = document.createElement("iframe");
+	  iFrame2.setAttribute("class","iFrame2");
+	  iFrame2.setAttribute("width","60%");
+	  iFrame2.setAttribute("height","345");
+	  iFrame2.setAttribute("allowfullscreen","true");
+	  iFrame2.setAttribute("webkitallowfullscreen","true");
+	  iFrame2.setAttribute("mozallowfullscreen","true");
+	  iFrame2.setAttribute("src", vidSRCs[11]);
+  }else {}
+  // appending vid one and two to container2
+  containMe2.appendChild(iFrame);
+  containMe2.appendChild(iFrame2);
+  
+	 
+  // here we append any remaining elements in order as we wanted to our desired webpage layout 
+  jP.appendChild(jBody);
+  jP.appendChild(jBr1);
+  jP.appendChild(jBr2);
+  jP.appendChild(jAnchor);
+//   <!--Line break before "Check out some gameplay"-->
+  jP.appendChild(lineBreak);
+  jP.appendChild(h2);
+  jDiv.appendChild(jP);
+  jDiv.appendChild(containMe2);
+  containMe.appendChild(jDiv);
+//  <!--appends everything to body-->
+  document.body.appendChild(containMe);
+ }
+//  <!--for loop: ends-->
+// <!--Functions for exterior web btn click-->
+$("#summonerswar_btn").click(function(){
+		// displays an alert
+		var txt;
+		var r = confirm("You are about to leave the current website. Continue?");
+		if (r == true) {
+			var url= "https://www.withhive.com/game/desc/313/22"; 
+			window.location = url;
+		} else {
+			var url= "https://s3-us-west-2.amazonaws.com/cis3110-a4/acePhase4CS_HTML.html"; 
+			window.location = url;
+		}
+    });
+$("#pogo_btn").click(function(){
+		// displays an alert
+		var txt;
+		var r = confirm("You are about to leave the current website. Continue?");
+		if (r == true) {
+			var url= "https://www.pokemongo.com/en-us/"; 
+			window.location = url;
+		} else {
+			var url= "https://s3-us-west-2.amazonaws.com/cis3110-a4/acePhase4CS_HTML.html"; 
+			window.location = url;
+		}
+    });
+$("#hearth_btn").click(function(){
+		// displays an alert
+		var txt;
+		var r = confirm("You are about to leave the current website. Continue?");
+		if (r == true) {
+			var url= "https://playhearthstone.com/en-us/"; 
+			window.location = url;
+		} else {
+			var url= "https://s3-us-west-2.amazonaws.com/cis3110-a4/acePhase4CS_HTML.html"; 
+			window.location = url;
+		}
+    });
+$("#polets_btn").click(function(){
+		// displays an alert
+		var txt;
+		var r = confirm("You are about to leave the current website. Continue?");
+		if (r == true) {
+			var url= "https://pokemonletsgo.pokemon.com/en-us/"; 
+			window.location = url;
+		} else {
+			var url= "https://s3-us-west-2.amazonaws.com/cis3110-a4/acePhase4CS_HTML.html"; 
+			window.location = url;
+		}
+    });
+$("#breath_btn").click(function(){
+		// displays an alert
+		var txt;
+		var r = confirm("You are about to leave the current website. Continue?");
+		if (r == true) {
+			var url= "https://www.zelda.com/breath-of-the-wild/buy-now/"; 
+			window.location = url;
+		} else {
+			var url= "https://s3-us-west-2.amazonaws.com/cis3110-a4/acePhase4CS_HTML.html"; 
+			window.location = url;
+		}
+    });
+$("#mario_btn").click(function(){
+		// displays an alert
+		var txt;
+		var r = confirm("You are about to leave the current website. Continue?");
+		if (r == true) {
+			var url= "https://supermario.nintendo.com/"; 
+			window.location = url;
+		} else {
+			var url= "https://s3-us-west-2.amazonaws.com/cis3110-a4/acePhase4CS_HTML.html"; 
+			window.location = url;
+		}
+    });
+	
+// <!--Cookies and button clicks-->
+var default1 = document.getElementById("a1").href;
+var default2 = document.getElementById("a2").href;
+var default3 = document.getElementById("a3").href;
+var default4 = document.getElementById("a4").href;
+var default5 = document.getElementById("a5").href;
+var default6 = document.getElementById("a6").href;
+var detail;
+var cacheDom;
+ 
+//Brandon's functions for tooltip&popover
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+var cURL = getCookie();
+var heart_icon = document.createElement("img");
+var heart_icon_URL = "https://s3-us-west-2.amazonaws.com/cis3110-a4/heart_icon.png";
+heart_icon.setAttribute("class", "favPng");
+heart_icon.setAttribute("src", heart_icon_URL);
+function setCookie(cname,cvalue,exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = cname+"= "+cvalue+";  "+expires;
+}
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1);
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+function checkCookie() {
+  var btn;
+  var detail;
+  var fav = getCookie("URL");
+  // if cookie exist, check the following via switch() 
+  if (fav != "") {
+	  switch(fav)
+	  {
+	    // if cookie URL is as such... do the following
+		case "https://s3-us-west-2.amazonaws.com/cis3110-a4/summonerswar_mod.png":
+		// pass btn1 to btn via document.getElementById()
+		btn = document.getElementById("btn1");
+		// JQuery to hide btn1 and replace it with the heart_icon like it should have been before user left website, essentially a redo
+		$("#btn1").hide();
+		btn1.parentNode.appendChild(heart_icon);
+		// we will also pass the href of a1 (detail page of image 1) via document.getElementById() and append"&fav=1" to var detail
+		// this will be used later by detailPage of bucket2 to set the heart_icon on the detail page
+		detail = document.getElementById("a1").href + "&fav=1";
+		console.log("Page loaded favorite:" + detail);
+		// passes "detail" as href to a1 or default1
+		// so this line does the passing of web address to the detailPage
+		$("#a1").attr("href", detail);
+		break;
+		case "https://s3-us-west-2.amazonaws.com/cis3110-a4/pogo_mod.png":
+		btn = document.getElementById("btn3");
+		$("#btn3").hide();
+		btn3.parentNode.appendChild(heart_icon);
+		detail = document.getElementById("a2").href + "&fav=1";
+		console.log("Page loaded favorite:" + detail);
+		$("#a2").attr("href", detail);
+		break;
+		case "https://s3-us-west-2.amazonaws.com/cis3110-a4/hearth_mod.png":
+		btn = document.getElementById("btn5");
+		$("#btn5").hide();
+		btn5.parentNode.appendChild(heart_icon);
+		detail = document.getElementById("a3").href + "&fav=1";
+		console.log("Page loaded favorite:" + detail);
+		$("#a3").attr("href", detail);
+		break;
+		case "https://s3-us-west-2.amazonaws.com/cis3110-a4/polets_mod.png":
+		btn = document.getElementById("btn7");
+		$("#btn7").hide();
+		btn7.parentNode.appendChild(heart_icon);
+		detail = document.getElementById("a4").href + "&fav=1";
+		console.log("Page loaded favorite:" + detail);
+		$("#a4").attr("href", detail);
+		break;
+		case "https://s3-us-west-2.amazonaws.com/cis3110-a4/breath_mod.png":
+		btn = document.getElementById("btn9");
+		$("#btn9").hide();
+		btn9.parentNode.appendChild(heart_icon);
+		detail = document.getElementById("a5").href + "&fav=1";
+		console.log("Page loaded favorite:" + detail);
+		$("#a5").attr("href", detail);
+		break;
+		case "https://s3-us-west-2.amazonaws.com/cis3110-a4/mario_mod.png":
+		btn = document.getElementById("btn11");
+		$("#btn11").hide();
+		btn11.parentNode.appendChild(heart_icon);
+		detail = document.getElementById("a6").href + "&fav=1";
+		console.log("Page loaded favorite:" + detail);
+		$("#a6").attr("href", detail);
+		break;
+		default:
+	  }
+  } else {
+	// on the other hand, if fav is NOT empty, but the value is null ... setCookie()
+	 if (fav != "" && fav != null) {
+		 setCookie("URL", fav, 30,checkCookie);
+	 }
+  }
+}
+// this section is responsible for excecuting procedures when a btn is clicked
+$(document).ready(function(){
+	// set all box image boolean state to false	so that we can control the "Unfavorite" function of each box individually
+	var box1Image = false;
+	var box2Image = false;
+	var box3Image = false;
+	var box4Image = false;
+	var box5Image = false;
+	var box6Image = false;
+    // when btn1(favorite btn) is clicked
+	$("#btn1").click(function(){
+		// displays an alert
+		alert("Summoners War has been marked as the new favorite.");
+		// hide btn1 and show other "favorite" btns just in case any were previously clicked
+		$("#btn1").hide();
+		$("#btn3").show();
+		$("#btn5").show();
+		$("#btn7").show();
+		$("#btn9").show();
+		$("#btn11").show();
+		// the parentNide where btn1 was ... now append the heart_icon as child via appendChild
+		btn1.parentNode.appendChild(heart_icon);
+		// when btn1 is clicked, set box1Image state to true, so that it is responsive to btn2 ("Unfavorite") and only btn2
+		// set all other box images to false in case any other box "favorite" btn was clicked before (which would cause it's box image state to be true: and now its false)
+		// the purpose is so that each "Unfavorite" btn is only responsive to its "Favorite" btn
+		box1Image = true;
+		box2Image = false;
+		box3Image = false;
+		box4Image = false;
+		box5Image = false;
+		box6Image = false;
+		// if btn1 is clicked, pass the respective image address to cURL to be used to set cookie
+		cURL = "https://s3-us-west-2.amazonaws.com/cis3110-a4/summonerswar_mod.png";
+		setCookie("URL",cURL, 30);
+		console.log("cURL =" + cURL);
+		// represent the state of the cookie
+		cookieChecker = 1;
+		// set detail address to default1 plus "&fav=1" and passes it to a1 as href
+		detail = default1 + "&fav=1";
+		$("#a1").attr("href", detail);
+    });
+     // when btn2 (unfavorite) is clicked 
+    $("#btn2").click(function(){
+		// displays an alert
+		alert("Summoners War has been unmarked from favorite.");
+		// shows btn1 again once btn2 (unfavorite) is clicked
+		$("#btn1").show();
+		// remove the heart_icon
+		if (box1Image == true)
+		{
+			heart_icon.remove(heart_icon);
+			box1Image = false;
+		}
+		// set cURL to empty
+		cURL = "";
+		setCookie("URL",cURL, 30);
+		// change cookieState to 0
+		cookiechecker = 0;
+		// update a1 to default1 
+		$("#a1").attr("href", default1);
+    });
+	$("#btn3").click(function(){
+		alert("Pokemon Go has been marked as the new favorite.");
+		$("#btn3").hide();
+		$("#btn1").show();
+		$("#btn5").show();
+		$("#btn7").show();
+		$("#btn9").show();
+		$("#btn11").show();
+		btn3.parentNode.appendChild(heart_icon);
+		box2Image = true;
+		box1Image = false;
+		box3Image = false;
+		box4Image = false;
+		box5Image = false;
+		box6Image = false;
+		cURL = "https://s3-us-west-2.amazonaws.com/cis3110-a4/pogo_mod.png";
+		setCookie("URL",cURL, 30);
+		console.log("cURL =" + cURL);
+		cookieChecker = 1;
+		detail = default2 + "&fav=1";
+		$("#a2").attr("href", detail);		
+    });
+    $("#btn4").click(function(){
+		alert("Pokemon Go has been unmarked from favorite.");
+		$("#btn3").show();
+		if (box2Image == true)
+		{
+			heart_icon.remove(heart_icon);
+			box2Image = false;
+		}
+		cURL = "";
+		setCookie("URL",cURL, 30);
+		cookiechecker = 0;
+		$("#a2").attr("href", default2);
+		
+    });
+	$("#btn5").click(function(){
+		alert("Hearthstone has been marked as the new favorite.");
+		$("#btn5").hide();
+		$("#btn1").show();
+		$("#btn3").show();
+		$("#btn7").show();
+		$("#btn9").show();
+		$("#btn11").show();
+		btn5.parentNode.appendChild(heart_icon);
+		box3Image = true;
+		box1Image = false;
+		box2Image = false;
+		box4Image = false;
+		box5Image = false;
+		box6Image = false;
+		cURL = "https://s3-us-west-2.amazonaws.com/cis3110-a4/hearth_mod.png";
+		setCookie("URL",cURL, 30); 
+		console.log("cURL =" + cURL);
+		cookieChecker = 1;
+		detail = default3 + "&fav=1";
+		$("#a3").attr("href", detail);
+    });
+    $("#btn6").click(function(){
+		alert("Hearthstone has been unmarked from favorite.");
+		$("#btn5").show();
+		if (box3Image == true)
+		{
+			heart_icon.remove(heart_icon);
+			box3Image = false;
+		}
+		cURL = "";
+		setCookie("URL",cURL, 30);
+		cookiechecker = 0;
+		$("#a3").attr("href", default3);
+    });
+	$("#btn7").click(function(){
+		alert("Pokemon Let's Go has been marked as the new favorite.");
+		$("#btn7").hide();
+		$("#btn1").show();
+		$("#btn3").show();
+		$("#btn5").show();
+		$("#btn9").show();
+		$("#btn11").show();
+		btn7.parentNode.appendChild(heart_icon);
+		box4Image = true;
+		box1Image = false;
+		box2Image = false;
+		box3Image = false;
+		box5Image = false;
+		box6Image = false;
+		cURL = "https://s3-us-west-2.amazonaws.com/cis3110-a4/polets_mod.png";
+		setCookie("URL",cURL, 30); 
+		console.log("cURL =" + cURL);
+		cookieChecker = 1;
+		detail = default4 + "&fav=1";
+		$("#a4").attr("href", detail);
+    });
+    $("#btn8").click(function(){
+		alert("Pokemon Let's Go has been unmarked from favorite.");
+		$("#btn7").show();
+		if (box4Image == true)
+		{
+			heart_icon.remove(heart_icon);
+			box4Image = false;
+		}
+		cURL = "";
+		setCookie("URL",cURL, 30);
+		cookiechecker = 0;
+		$("#a4").attr("href", default4);
+    });
+	$("#btn9").click(function(){
+		alert("Breath of the Wild has been marked as the new favorite.");
+		$("#btn9").hide();
+		$("#btn1").show();
+		$("#btn3").show();
+		$("#btn5").show();
+		$("#btn7").show();
+		$("#btn11").show();
+		btn9.parentNode.appendChild(heart_icon);
+		box5Image = true;
+		box1Image = false;
+		box2Image = false;
+		box3Image = false;
+		box4Image = false;
+		box6Image = false;
+		cURL = "https://s3-us-west-2.amazonaws.com/cis3110-a4/breath_mod.png";
+		setCookie("URL",cURL, 30);
+		console.log("cURL =" + cURL);
+		cookieChecker = 1;
+		detail = default5 + "&fav=1";
+		$("#a5").attr("href", detail);		
+    });
+    $("#btn10").click(function(){
+		alert("Breath of the Wild has been unmarked from favorite.");
+		$("#btn9").show();
+		if (box5Image == true)
+		{
+			heart_icon.remove(heart_icon);
+			box5Image = false;
+		}
+		cURL = "";
+		setCookie("URL",cURL, 30);
+		cookiechecker = 0;
+		$("#a5").attr("href", default5);
+    });
+	$("#btn11").click(function(){
+		alert("Mario Odyssey has been marked as the new favorite.");
+		$("#btn11").hide();
+		$("#btn1").show();
+		$("#btn3").show();
+		$("#btn5").show();
+		$("#btn7").show();
+		$("#btn9").show();
+		btn11.parentNode.appendChild(heart_icon);
+		box6Image = true;
+		box1Image = false;
+		box2Image = false;
+		box3Image = false;
+		box4Image = false;
+		box5Image = false;
+		cURL = "https://s3-us-west-2.amazonaws.com/cis3110-a4/mario_mod.png";
+		setCookie("URL",cURL, 30); 
+		console.log("cURL =" + cURL);
+		cookieChecker = 1;
+		detail = default6 + "&fav=1";
+		$("#a6").attr("href", detail);
+    });
+    $("#btn12").click(function(){
+		alert("Mario Odyssey has been unmarked from favorite.");
+		$("#btn11").show();
+		if (box6Image == true)
+		{
+			heart_icon.remove(heart_icon);
+			box6Image = false;
+		}
+		cURL = "";
+		setCookie("URL",cURL, 30);
+		cookiechecker = 0;
+		$("#a6").attr("href", default6);
+    });
+})
+</script>
+<!--Bootsrap CDN Bottom section-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+<!--Pager Starter. <li class="disabled"> diables button-->
+	
+<ul class="pager"> 
+	<li><a href="#">PC Games</a></li>
+	<li><a href="#">Mobile Games</a></li>
+	<li><a href="#">Board Games</a></li>
+	<li><a href="https://s3-us-west-2.amazonaws.com/cis3110-a4/acePhase4CS_About.html">About Us</a></li>
+	<li><a href="#">Contact</a></li>
+</ul>	
+	
+</html>
+
+<!--Change div class to upppercase in css file-->
